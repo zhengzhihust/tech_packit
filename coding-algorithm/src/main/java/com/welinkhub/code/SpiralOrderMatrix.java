@@ -1,5 +1,7 @@
 package com.welinkhub.code;
 
+import static com.welinkhub.utils.AlgoUtil.print;
+
 public class SpiralOrderMatrix {
 
     private static int X[][] = {{1, 2, 3, 4}, {5, 6, 7, 8}, {9, 10, 11, 12}};
@@ -48,11 +50,4 @@ public class SpiralOrderMatrix {
 
     }
 
-    private static void print(int value) {
-        System.out.print(value + " ");
-    }
-
-    public static void main(String[] args) {
-        spiralOrderMatrix(X);
-    }
 }
